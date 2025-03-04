@@ -25,7 +25,6 @@ class AppRouter {
   static const USER_PROFILE = '/user-profile';
   static const MY_ORDER_SCREEN = '/my-order-screen';
   static const CONTACT_US_SCREEN = '/contact-us-screen';
-  static const LOGIN_SCREEN = '/contact-us-screen';
 
   static var routes = [
     GetPage(name: BOTTOM_NAV_BAR, page: () => BottomNavBar()),
